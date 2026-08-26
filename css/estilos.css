@@ -1,15 +1,22 @@
 .sacola {
 background-image: url(../img/sacola.png);
 background-repeat: no-repeat;
-background-position: top right;
+background-position: center right;
 font-size: 14px;
 padding-right: 35px;
+padding-top: 8px;
 text-align: right;
 width: 140px;
 }
-.menu-opcoes ul {
+.menu-opcoes ul li{
 font-size: 15px;
+display: inline;
+margin-left: 20px;
 }
 .menu-opcoes a {
 color: #003366;
+}
+.container{
+    margin: 0 auto;
+    width: 940px;
 }
