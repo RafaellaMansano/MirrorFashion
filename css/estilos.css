@@ -1,40 +1,79 @@
-body{
-color: #333333;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-width: 940px;
-}
-header{
-    position: relative;
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .sacola {
-background-image: url(../img/sacola.png);
-background-repeat: no-repeat;
-background-position: top right;
-font-size: 14px;
-padding-right: 35px;
-padding-top: 8px;
-text-align: right;
-width: 140px;
-position: absolute;
-top: 0;
-right: 0;
+    background-image: url("../img/sacola.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
-.menu-opcoes{
+
+.menu-opcoes {
     position: absolute;
     bottom: 0;
     right: 0;
 }
-.menu-opcoes ul{
-font-size: 15px;
+
+.menu-opcoes ul {
+    font-size: 15px;
 }
 .menu-opcoes a {
-color: #003366;
+    color: #003366;
 }
-ul li{
+
+.menu-opcoes ul li {
     display: inline;
     margin-left: 20px;
 }
-.container{
-    margin: 0 auto;
+
+.container {
     width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+}
+
+.busca,
+.menu-departamentos {
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+}
+.busca form,
+.busca h2,
+.menu-departamentos h2 {
+    margin: 10px;
+}
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+.menu-departamentos a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+.busca,
+.menu-departamentos {
+    float: left;
+}
+.menu-departamentos {
+    clear: left;
 }
