@@ -77,22 +77,50 @@ header {
 .menu-departamentos {
     clear: left;
 }
-/***** section *****/
+
+.destaque {
+    margin-top: 10px;
+}
+.menu-departamentos {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+/***** Section *****/
 .painel {
-margin: 10px 0;
-padding: 10px;
-width: 445px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
 }
 .novidades {
-float: left;
+    float: left;
 }
 .mais-vendidos {
-float: right;
+    float: right;
 }
+
 .painel li {
-display: inline-block;
-vertical-align: top;
-width: 140px;
-margin: 2px;
-padding-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2 {
+font-size: 24px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.painel a {
+color: #333;
+font-size: 14px;
+text-align: center;
+text-decoration: none;
+}
+.novidades {
+background-color: #F5DCDC;
+}
+.mais-vendidos {
+background-color: #DCDCF5;
 }
